@@ -1,7 +1,28 @@
-# list_memorazation
-psychopy experiment with lists memorization
-there are 2 types of list, neutral and threatening, in a given list there are 12 words (in Hebrew), each words is showen for 1 sec with a pouse of 0.25/1 sec between each one. every list is shown one of the two poause times.
-A test accures after there are shown 8 lists, 4 of them wuth long times and 4 with short times+ 2 of each time is a different type of list.
-In the test there are 3 words from each list and 3 not from the lists but with specific closnes to the correlated list, the participant need to answer if the words is new or not in the test run. 
-8 lists and a test are a block- in total 4 blocks (32 lists).
-all the lists are randomized- in the block they belong to, in their place inside the block, the order of the words that are shown and the pause times between the words.
+# List Memorization Experiment
+
+This repository contains a Psychopy experiment focusing on the memorization of lists. The experiment involves two types of lists: neutral and threatening. Each list comprises 12 Hebrew words, displayed for 1 second with a pause of either 0.25 or 1 second between each word. The pause duration is randomized for each list.
+
+After the presentation of 8 lists (4 with long pauses and 4 with short pauses), a test phase follows. During the test, participants encounter 3 words from each list and 3 words not from any list but closely related to the correlated list. The task for participants is to determine whether a given word is new or was part of the previously presented lists.
+
+## Experimental Design
+
+- Each block consists of 8 lists (4 with long pauses, 4 with short pauses).
+- The experiment comprises a total of 4 blocks, resulting in 32 lists.
+
+## Randomization
+
+All lists are randomized in multiple dimensions:
+- Within their respective block.
+- In terms of their position inside the block.
+- The order of the words presented in each list.
+- The pause durations between words.
+
+## How to Run
+
+1. Clone this repository to your local machine.
+2. Ensure you have Psychopy installed.
+3. Open the Psychopy experiment file.
+4. Run the experiment following the provided instructions.
+
+Feel free to use or adapt this experiment for your own research or educational purposes. If you encounter any issues or have suggestions, please feel free to open an issue or submit a pull request. Happy experimenting!
+
